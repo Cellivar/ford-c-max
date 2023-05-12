@@ -21,12 +21,12 @@ These module names come from ForScan, which may or may not coincide with Ford do
 | ABS    | Antilock braking system                |                                                                                                                                   |
 | DCDC   | DC to DC Converter Control Module      | Mimics/replaces a traditional alternator, converts power from<br />the traction battery down to the 12-14V for accessory systems. |
 | RCM    | Restraint Control Module               |                                                                                                                                   |
-| PAM    | Parking Aid Module                     |                                                                                                                                   |
+| PAM    | Parking Aid Module                     | If equipped with parking distance sensors                                                                                         |
 | PSCM   | Power Steering Control Module          |                                                                                                                                   |
 | BdyCM  | Body Control Module                    | Brainbox, many subsystems                                                                                                         |
 | GWM    | Gateway Module A                       | A router of sorts                                                                                                                 |
 | DACMC  | Digital Audio Control Module C         | Audio amplifier/Active noise cancellation system                                                                                  |
-| IPMB   | Image Processing Module B              | Backup camera                                                                                                                     |
+| IPMB   | Image Processing Module B              | Backup camera, if equipped                                                                                                        |
 | FCIM   | Front Controls Interface Module        | Physical radio controls (8-inch touch screen equipped vehicles)                                                                   |
 | FCDIM  | Front Control/Display Interface Module | 4-inch non-touch screen/controls on lower trim vehicles                                                                           |
 | TCU    | Telematic Control Unit Module          | Cellular modem, either 2g, 3g, 4g (Energi only)                                                                                   |
@@ -37,7 +37,7 @@ These module names come from ForScan, which may or may not coincide with Ford do
 | ACM    | Audio Control Module                   | AM/FM/CD/Sirius tuner/audio routing module                                                                                        |
 | IPC    | Instrument Panel Control Module        |                                                                                                                                   |
 | GPSM   | Global Positioning System Module       |                                                                                                                                   |
-| RGTM   | Rear Gate Trunk Module                 |                                                                                                                                   |
+| RGTM   | Rear Gate Trunk Module                 | Powered liftgate controller, if equipped                                                                                          |
 
 ## System Information
 
