@@ -15,7 +15,7 @@ These module names come from ForScan, which may or may not coincide with Ford do
 | OBDII  | On Board Diagnostic II                |                                   |
 | APIM   | Accessory Protocol Interface Module   | The 'head unit' touchscreen       |
 | ACCM   | Air Conditioning Control Module       |                                   |
-| GFM    | Generic Function Module               | ???                               |
+| GFM    | Generic Function Module               | The charge port light ring        |
 | SASM   | Steering Angle Sensor Module          |                                   |
 | OCS    | Occupant Classification System Module |                                   |
 | ABS    | Antilock braking system               |                                   |
@@ -26,7 +26,7 @@ These module names come from ForScan, which may or may not coincide with Ford do
 | BdyCM  | Body Control Module                   | Brainbox, many subsystems         |
 | GWM    | Gateway Module A                      | A router of sorts                 |
 | DACMC  | Digital Audio Control Module C        |                                   |
-| IPMB   | Image Processing Module B             |                                   |
+| IPMB   | Image Processing Module B             | Backup camera                     |
 | FCIM   | Front Controls Interface Module       |                                   |
 | TCU    | Telematic Control Unit Module         | Cellular modem, either 2g, 3g, 4g |
 | PDM    | Passengers Door Control Unit          |                                   |
