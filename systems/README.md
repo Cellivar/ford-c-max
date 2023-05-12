@@ -15,7 +15,7 @@ These module names come from ForScan, which may or may not coincide with Ford do
 | OBDII  | On Board Diagnostic II                 |                                                                                                                                   |
 | APIM   | Accessory Protocol Interface Module    | The 'head unit' touchscreen/Sync module                                                                                           |
 | ACCM   | Air Conditioning Control Module        |                                                                                                                                   |
-| GFM    | Generic Function Module                | Charge port light ring                                                                                                            |
+| GFM    | Generic Function Module                | Charge port light ring (Energi only)                                                                                              |
 | SASM   | Steering Angle Sensor Module           |                                                                                                                                   |
 | OCS    | Occupant Classification System Module  |                                                                                                                                   |
 | ABS    | Antilock braking system                |                                                                                                                                   |
