@@ -28,7 +28,9 @@ I've done stupid stuff with my car. Here's some notable ones.
 * Build date very late December 2012.
     * Equipment group 300A
 * Purchased in 2015 with 86,000 miles.
+* Reached 100,000 miles on 2016-10-02.
 * Warranty replacement of original transmission at 120k miles (💞 you Ford and CARB).
+* Upgraded to Sync 3 in May of 2021.
 * Performed its first auto-parallel park on 2022-05-10, 9 years after build.
 * Reached 150,000 miles on 2023-04-30.
 
