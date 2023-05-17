@@ -4,6 +4,17 @@ This folder contains official documents from Ford, such as presentation material
 
 It doesn't include any documents that obviously aren't meant to be reproduced or distributed without permission.
 
+## General
+
+You can download the orignal manuals and things from Ford's website.
+
+* [2013 documents](https://www.ford.com/support/vehicle/c-max-hybrid-energi/2013/owner-manuals/)
+* [2014 documents](https://www.ford.com/support/vehicle/c-max-hybrid-energi/2014/owner-manuals/)
+* [2015 documents](https://www.ford.com/support/vehicle/c-max-hybrid-energi/2015/owner-manuals/)
+* [2016 documents](https://www.ford.com/support/vehicle/c-max-hybrid-energi/2016/owner-manuals/)
+* [2017 documents](https://www.ford.com/support/vehicle/c-max-hybrid-energi/2017/owner-manuals/)
+* [2018 documents](https://www.ford.com/support/vehicle/c-max-hybrid/2018/owner-manuals/)
+
 ## Marketing
 
 * [2013 Feature Brocure](./2013-cmax-brochure.pdf)
