@@ -12,3 +12,8 @@ It doesn't include any documents that obviously aren't meant to be reproduced or
 * [2016 Feature Brocure](./2016-cmax-brochure.pdf)
 * [2017 Feature Brocure](./2017-cmax-brochure.pdf)
 * [2018 Feature Brocure](./2018-cmax-brochure.pdf)
+
+## Technical
+
+* Wiring Diagram manual. Find it on eBay or elsewhere. It is extremly useful to have the physical diagram when working on things to take notes on and mark up observed differences.
+* Shop manual, electronic. Can be found on eBay for cheap, it's worth it for the diagrams and the step-by-step instructions on how to properly take things apart and put it together.
