@@ -40,7 +40,7 @@ The liftgate wiring harness is supposed to have all of these wires present, but 
 
 Fuse 99 is empty and the pin is missing, so you will need to use an Add-A-Fuse kit. I used one of the fuses in the trunk fusebox.
 
-Eventually when I did the [powered liftgate add project](./add_powered_liftgate.md) I purchased a used Escape rear fusebox, took it apart, used the fuse pins out of it to add the correct fuse pins for my fusebox, and was able to wire in Fuse 99 correctly.
+Eventually when I did the [powered liftgate add project](./add_powered_liftgate.md) I purchased a used Escape rear fusebox, took it apart, used the fuse pins out of it to add the correct fuse pins for my fusebox, and was able to wire in [Fuse 31 correctly](/systems/electrical/fuses.md).
 
 Make sure to use twisted pair for the MS-CAN bus otherwise the bus may become unstable and cause problems for your car.
 
