@@ -16,6 +16,8 @@
 
 I have a 2013-era camera and a 2017-era camera. The 2017 era camera will turn on and display video, but only the 2013-era camera will also display the backup guide lines and the turn guidelines when steering while backing up. Based on observing the LIN bus traffic the 2013 IPMB is sending messages to the 2017 camera that are just being ignored. Trying to flip IPMB configuration settings to make it work didn't seem to change anything. I suspect the 2016+ cameras use a different LIN address that the 2013-2015 IPMB doesn't know to talk to. More research necessary.
 
+![image](https://github.com/Cellivar/ford-c-max/assets/1441553/0a4799bd-3cdf-46fd-853a-3f928a83af5e)
+
 Even with an OEM 2013 camera my zoom doesn't work `:(`
 
 Some suggestions:
@@ -88,6 +90,11 @@ You may need to add the pins into the connector if they're missing, good luck! Y
 ## Installation
 
 If you don't get a new liftgate handle you will need to cut the hole yourself. There is an outline on the inside of the handle, cut right up to the outline but do not cut it out. Take it slow, I was able to do it with basic garage tools and ended up with a good look and a snug fit that does not rattle. The camera bracket should seat tightly into it without stressing either plastic part. Do not use excessive force, the camera bracket isn't super sturdy.
+
+![image](https://github.com/Cellivar/ford-c-max/assets/1441553/d1a4ba09-7298-427f-a70d-75dee26ca9ed)
+
+![image](https://github.com/Cellivar/ford-c-max/assets/1441553/c736c1a5-f37f-4c0e-914d-947f5f434177)
+
 
 My 2013 was not wired with the necessary wires in the main wiring harnesses (14041, 14014) so I needed to run twisted pair the whole way from the trunk up to the dashboard.
 
