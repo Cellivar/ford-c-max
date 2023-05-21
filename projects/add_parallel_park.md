@@ -84,15 +84,34 @@ Connector names are from the 2013 wiring diagram book.
 
 TODO!
 
+![Front connector to bumper harness](https://github.com/Cellivar/ford-c-max/assets/1441553/2fd9e3d7-6e37-4a81-bf71-d43f08081b42)
+
+
 ## Installation
 
 * Take the front bumper off and apart, then cut out the sensor template holes. Make sure to make it exact, the shape of the hole is how the brackets fit tightly and keep the sensors aligned properly. 
 
 TODO!
 
+![Prototyping the sensors locations before cutting](https://github.com/Cellivar/ford-c-max/assets/1441553/cd7560fa-dd23-48e1-80eb-1387de6b22dd)
+
+![Sensor and bracket fitted into cut hole of bumper](https://github.com/Cellivar/ford-c-max/assets/1441553/f57fd73e-b70f-4141-8857-b5c1e98852c2)
+
+![Routing the wires through the firewall](https://github.com/Cellivar/ford-c-max/assets/1441553/640a0740-b0d3-4a9e-9a86-7899905fb088)
+
+
 ### Paint
 
 TODO!
+
+![Sensors in cardboard before painting](https://github.com/Cellivar/ford-c-max/assets/1441553/f459873a-c754-42ce-a10a-e8966500d6ba)
+
+![Painting the bumper brackets](https://github.com/Cellivar/ford-c-max/assets/1441553/1aa249d5-d904-4bb7-ad27-8ffdf9af6093)
+
+![Painting the sensors](https://github.com/Cellivar/ford-c-max/assets/1441553/e2723019-e180-4c10-a342-85ab513f8e53)
+
+![Painted and installed bracket](https://github.com/Cellivar/ford-c-max/assets/1441553/e88c2d52-4f9c-4c36-a478-a1ed0b920faf)
+
 
 ## Configuration
 
@@ -102,6 +121,10 @@ TODO!
 * [Enable APA in the IPC](/systems/modules/IPC.md).
 * [Enable APA in the APIM](/systems/modules/APIM.md).
 * [Enable APA in the IPMB](/systems/modules/IPMB.md).
+
+![Sync 3 PDC screen ](https://github.com/Cellivar/ford-c-max/assets/1441553/1a562c83-6298-423e-8c38-dcfa9cddf007)
+![Sync 3 APA screen](https://github.com/Cellivar/ford-c-max/assets/1441553/1f760496-30cf-40af-837b-e61ee6209957)
+
 
 ## Notes
 
