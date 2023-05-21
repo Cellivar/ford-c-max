@@ -1,5 +1,7 @@
 # Adding the OEM Rear View Camera
 
+The [2013 C-Max Equipment Group 302A](/docs/ford/2013-cmax-brochure.pdf) included a rear-view camera mounted to the bumper of the vehicle. My C-Max Energi was a fleet vehicle special order and came with the base equipment package. After having driven several rental cars with backup cameras I decided I wanted it, and I decided I hated the look of all aftermarket solutions for this. OEM stock was the way to go, and these are the notes I took along the way.
+
 ## Parts
 
 | Parts          | Part Number    | Notes                                      |
@@ -32,6 +34,8 @@ Some suggestions:
 Connector names are from the 2013 wiring diagram book.
 
 The liftgate wiring harness is supposed to have all of these wires present, but the version of the harness installed in vehicles without the RVC and without the powered liftgate omit these entirely. I did not bother trying to find the right liftgate harness as it was too expensive, I just ran the wires to a connector in the driver side D pillar, then from there to the inside of the car.
+
+This also means the wires for the RVC signal (and anything else related to higher equipment packages, like the [forward PDC sensor wires](./add_parallel_park.md)) are not present and must be run yourself. Follow the wires that already exist along the sides of the vehicle, and prepare to take off all of the plastic panels to run them nicely under the carpet. At several points I was literally arm-deep under the carpet. My partner got a great photo of this that I won't share here. I suggest vacuuming your car out first.
 
 ### C4402 - IPMB Connector
 
@@ -95,7 +99,6 @@ If you don't get a new liftgate handle you will need to cut the hole yourself. T
 
 ![image](https://github.com/Cellivar/ford-c-max/assets/1441553/c736c1a5-f37f-4c0e-914d-947f5f434177)
 
-
 My 2013 was not wired with the necessary wires in the main wiring harnesses (14041, 14014) so I needed to run twisted pair the whole way from the trunk up to the dashboard.
 
 You'll need twisted pair wire for the IPMB and two shielded conductors for the video signal. I used some coax I had lying around and it's been working fine.
@@ -107,7 +110,7 @@ Note that the tailgate wire harness will also lack all of the appropriate connec
 ## Configuration
 
 * [Configure the IPMB](/systems/modules/IPMB.md).
-* [Enable the RVC in the Central Config](/systems/modules/central_config.md).
+* [Enable the RVC in the Central Config](/systems/modules/ford_central_config.md).
 * [Enable the RVC in the IPC](/systems/modules/IPC.md).
 * [Enable the RVC settings in the APIM](/systems/modules/APIM.md).
 
