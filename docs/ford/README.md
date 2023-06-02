@@ -17,12 +17,12 @@ You can download the orignal manuals and things from Ford's website.
 
 ## Marketing
 
-* [2013 Feature Brocure](./2013-cmax-brochure.pdf)
-* [2014 Feature Brocure](./2014-cmax-brochure.pdf)
-* [2015 Feature Brocure](./2015-cmax-brochure.pdf)
-* [2016 Feature Brocure](./2016-cmax-brochure.pdf)
-* [2017 Feature Brocure](./2017-cmax-brochure.pdf)
-* [2018 Feature Brocure](./2018-cmax-brochure.pdf)
+* [2013 Feature Brocure](./marketing/2013-cmax-brochure.pdf)
+* [2014 Feature Brocure](./marketing/2014-cmax-brochure.pdf)
+* [2015 Feature Brocure](./marketing/2015-cmax-brochure.pdf)
+* [2016 Feature Brocure](./marketing/2016-cmax-brochure.pdf)
+* [2017 Feature Brocure](./marketing/2017-cmax-brochure.pdf)
+* [2018 Feature Brocure](./marketing/2018-cmax-brochure.pdf)
 
 ## Technical
 
