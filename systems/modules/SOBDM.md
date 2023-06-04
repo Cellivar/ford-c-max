@@ -8,7 +8,7 @@
 | Strategy            | FM58-14F476-BC               |       |
 | Calibration Level   | FM58-10B689-BC               |       |
 | Location            | Integrated into battery pack |       |
-| Bus                 |                              |       |
+| Bus                 | HS-CAN                       |       |
 
 The SOBDM is a poor name for the High Voltage Battery Charger, the unit responsible for taking the power from the plug and using it to charge the battery. When the vehicle is charging the CAN network is active and a bunch of modules wake up, including this one, to perform the charging process.
 

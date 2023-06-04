@@ -8,7 +8,7 @@
 | Strategy            | FM58-14D459-AH               |       |
 | Calibration Level   | FM58-14B227-AF               |       |
 | Location            | Integrated into battery pack |       |
-| Bus                 |                              |       |
+| Bus                 | HS-CAN                       |       |
 
 The DC/DC convert replaces the traditional alternator in ICE vehicles. The C-Max doesn't have an alternator, it has [two motor/generators that can either drive the vehicle forward or generate power](https://www.youtube.com/watch?v=MZf_BUuW5Qg) depending on what the vehicle is doing.
 

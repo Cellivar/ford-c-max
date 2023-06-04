@@ -8,7 +8,7 @@
 | Strategy            | AV6N-14C108-AH   |       |
 | Calibration Level   | AV6N-14B533-FC   |       |
 | Location            | Passenger's door |       |
-| Bus                 |                  |       |
+| Bus                 | MS-CAN           |       |
 
 As the name implies the PDM is responsible for the functions of the passenger's door. This includes the handle, mirror, locks, windows, buttons, switches, etc. Very few of those controls end up going directly into the vehicle, instead they go through the PDM.
 

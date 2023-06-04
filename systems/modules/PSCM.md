@@ -8,7 +8,7 @@
 | Strategy            | CV6T-14C217-AD |       |
 | Calibration Level   | CV61-3C579-AD  |       |
 | Location            | Steering rack  |       |
-| Bus                 | HSCAN          |       |
+| Bus                 | HS-CAN         |       |
 
 The PSCM is the controller for the electronic power steering (EPS) rack present in all C-Maxes. The steering wheel is mechanically connected to the same system, so when the Active Park Assist is turning the steering wheel it's using the PSCM to drive the steering.
 

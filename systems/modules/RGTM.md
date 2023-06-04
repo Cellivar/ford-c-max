@@ -8,7 +8,7 @@
 | Strategy            |                 |       |
 | Calibration Level   |                 |       |
 | Location            | Rear trunk door |       |
-| Bus                 |                 |       |
+| Bus                 | MS-CAN          |       |
 
 The RGTM is responsible for the powered liftgate operation and safety features in the rear trunk liftgate. It generates the soft little beeps, listens for the trunk open signal to unlatch or latch the trunk, and monitors the power use of the struts and voltage of the pinch sensors to determine if something is blocking the door.
 

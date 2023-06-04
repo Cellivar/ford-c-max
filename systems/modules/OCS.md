@@ -8,7 +8,7 @@
 | Strategy            | DM51-14F595-DC |       |
 | Calibration Level   | DM51-603B16-DE |       |
 | Location            |                |       |
-| Bus                 |                |       |
+| Bus                 | HS-CAN         |       |
 
 The OCS is responsible for determining what the occupants of the vehicle are and how to react to safely manage the occupants in a crash. In a C-Max this is mostly responsible for determining if the passenger seat is empty, has an adult in it, or has a child or car seat that _should not_ have an airbag deployed.
 

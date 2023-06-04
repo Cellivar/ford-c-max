@@ -8,7 +8,7 @@
 | Strategy            |                        |       |
 | Calibration Level   | CM5T-10C714-BA         |       |
 | Location            | Attached to light ring |       |
-| Bus                 |                        |       |
+| Bus                 | HS-CAN                 |       |
 
 The GFM is an obscurely named module that is actually the Charge Port Light Ring Controller. It's responsible for making the pretty glowy lights when your car is plugged in and charging.
 

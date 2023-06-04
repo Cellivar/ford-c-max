@@ -8,7 +8,7 @@
 | Strategy            | FV68-2D053-CB                |       |
 | Calibration Level   | FV68-2C219-AJ                |       |
 | Location            | Engine bay, against firewall |       |
-| Bus                 | HSCAN                        |       |
+| Bus                 | HS-CAN                       |       |
 
 The ABS module is mounted directly to the ABS brake controller and part of the overall braking system. It manages the anti-lock brakes, traction control, hill-hold assist, and is used as part of the brake bleed procedure.
 

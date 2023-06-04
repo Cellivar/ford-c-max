@@ -8,7 +8,7 @@
 | Strategy            | DP5T-14F539-AJ  |       |
 | Calibration Level   | DM5T-14F509-AG  |       |
 | Location            | Behind glovebox |       |
-| Bus                 |                 |       |
+| Bus                 | MS-CAN          |       |
 
 The DACMC is a combination audio amplifier and audio effect generator. On C-Max vehicles this is used as an amp for the various speakers and is also used as the Active Noise Cancellation system controller.
 

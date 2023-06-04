@@ -8,7 +8,7 @@
 | Strategy            | DG9H-14D491-AB         |       |
 | Calibration Level   | DG9H-19F611-AB         |       |
 | Location            | Part of A/C compressor |       |
-| Bus                 |                        |       |
+| Bus                 | HS-CAN                 |       |
 
 The ACCM is responsible for managing the compressor and related controls for the air conditioning system. When the HVAC controller commands the compressor to run the ACCM manages the actual running of the compressor.
 

@@ -8,7 +8,7 @@
 | Strategy            | FM58-14C197-GC               |       |
 | Calibration Level   | FM58-10B687-GC               |       |
 | Location            | Integrated into battery pack |       |
-| Bus                 |                              |       |
+| Bus                 | HS-CAN                       |       |
 
 The BECM is the mangement system for the high voltage battery. It controls a lot of the operations of the battery, monitors voltages, balancing, temperatures, cooling, etc. for the battery as a whole. If the high voltage system is out of whack this is what will throw DTCs.
 

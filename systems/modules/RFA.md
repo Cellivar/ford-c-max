@@ -8,7 +8,7 @@
 | Strategy            | AV6N-14C104-AM |       |
 | Calibration Level   | AV6N-19G481-AL |       |
 | Location            |                |       |
-| Bus                 |                |       |
+| Bus                 | MS-CAN         |       |
 
 The RFA manages most of the interactions with the Intelligent Access Key (IAK) 5-button fob. This includes the touch-to-lock/unlock functions of the door handles, the lock/unlock buttons, the alarm signal when the fob is activated, and determining if the key fob is inside the vehicle when you push the start button.
 

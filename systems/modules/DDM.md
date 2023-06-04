@@ -8,7 +8,7 @@
 | Strategy            | AV6N-14C064-AH |       |
 | Calibration Level   | AV6N-14B531-FC |       |
 | Location            | Driver's door  |       |
-| Bus                 |                |       |
+| Bus                 | MS-CAN         |       |
 
 As the name implies the DDM is responsible for the functions of the driver's door. This includes the handle, mirror, locks, windows, buttons, switches, etc. Very few of those controls end up going directly into the vehicle, instead they go through the DDM.
 
