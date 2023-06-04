@@ -47,6 +47,23 @@ The IPC pins can be connected:
 
 This issue is confirmed present on D-series and F-series parts. I'm not willing to test on my H-series unit.
 
+## Engineering Test Mode
+
+Engineering Test Mode can be used to quickly check the IPC for issues and for part numbers.
+
+1. Start with the engine off and the screen off.
+2. Press and hold the OK button on the left D-Pad on the steering wheel.
+3. Start the car.
+4. Continue holding the button until you see a yellow "ET" appear in the top left of the left screen. This will show even if there are other popups present.
+5. Release as soon as you see the "ET" appear.
+
+You can scroll through the screens with the left D-Pad. Press and hold OK to exit ET mode.
+
+<img src="https://github.com/Cellivar/ford-c-max/assets/1441553/b1907ec2-4d11-401f-a74b-1973bfc582d3" width="200px"/>
+
+<img src="https://github.com/Cellivar/ford-c-max/assets/1441553/e2b6c48b-7116-4c4b-820c-525bd8e3a105" width="200px"/>
+
+
 ## Part Number Notes
 
 The IPC is a sandwich of 3 different parts:
