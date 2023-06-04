@@ -24,6 +24,29 @@ New retrofit
 | Location            | Above steering wheel |       |
 | Bus                 | MS-CAN, I-CAN        |       |
 
+⚠️⚠️⚠️ DO NOT ATTEMPT TO UPDATE FIRMWARE WHILE INSTALLED IN THE VEHICLE ⚠️⚠️⚠️
+
+For reasons that are not well understood [FORScan cannot reliably update the firmware of C-Max IPCs](https://forscan.org/forum/viewtopic.php?p=70432&sid=8a79e46f2dace6f8e82e992572df1b67#p70432) while installed in the vehicle.
+
+If you wish to update the firmware of a C-Max IPC you must remove it from the vehicle and flash it there.
+
+1. First use FORScan to create a vehicle profile for your vehicle while the IPC is installed. Save the profile.
+2. Remove the IPC.
+3. Wire the IPC up on a bench using the note below.
+4. Connect FORScan to the module using the saved profile, it should be able to communicate to the IPC.
+5. Proceed with the firmware update.
+
+Pins 12 and 13 should be 120 ohms in this configuration.
+
+The IPC pins can be connected:
+
+* Pin 21 - 12V
+* Pin 5 - Ground
+* Pin 12 - MS-CAN+ (pin 3 of the OBDII connector)
+* Pin 13 - MS-CAN- (Pin 11 of the OBDII connector)
+
+This issue is confirmed present on D-series and F-series parts. I'm not willing to test on my H-series unit.
+
 ## Part Number Notes
 
 The IPC is a sandwich of 3 different parts:

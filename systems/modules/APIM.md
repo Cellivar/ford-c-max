@@ -8,7 +8,7 @@ TODO!
 
 | Module Property     | Value              | Notes |
 | ------------------- | ------------------ | ----- |
-| AsBuilt Module Code |                    |       |
+| AsBuilt Module Code | 7D0                |       |
 | Part number         | GB5T-14G371-CFC    |       |
 | Calibration         | GB5T-14G375-CA     |       |
 | Strategy            | GB5T-14G374-AF     |       |

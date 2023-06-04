@@ -2,7 +2,7 @@
 
 | Module Property     | Value                              | Notes |
 | ------------------- | ---------------------------------- | ----- |
-| AsBuilt Module Code |                                    |       |
+| AsBuilt Module Code | 726                                |       |
 | Part number         | BV6N-14A073-PE                     |       |
 | Calibration         | BV6N-14C095-DF                     |       |
 | Strategy            | BV6N-14C094-DF                     |       |

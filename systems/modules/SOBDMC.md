@@ -2,7 +2,7 @@
 
 | Module Property     | Value              | Notes |
 | ------------------- | ------------------ | ----- |
-| AsBuilt Module Code |                    |       |
+| AsBuilt Module Code | 7E6                |       |
 | Part number         | DM58-7P120-FH      |       |
 | Calibration         | MCBG4-3BFB         |       |
 | Strategy            | DM58-14G069-AFA    |       |

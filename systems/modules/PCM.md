@@ -2,7 +2,7 @@
 
 | Module Property     | Value                      | Notes |
 | ------------------- | -------------------------- | ----- |
-| AsBuilt Module Code |                            |       |
+| AsBuilt Module Code | 7E0                        |       |
 | Part number         | DM5A-12A650-EB             |       |
 | Calibration         |                            |       |
 | Strategy            | DM5A-14C204-LL             |       |

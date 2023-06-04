@@ -2,7 +2,7 @@
 
 | Module Property     | Value                     | Notes |
 | ------------------- | ------------------------- | ----- |
-| AsBuilt Module Code |                           |       |
+| AsBuilt Module Code | 727                       |       |
 | Part number         | CM5T-19C107-LA            |       |
 | Calibration         | CM5T-14D100-LA            |       |
 | Strategy            | CM5T-14D099-FD            |       |
