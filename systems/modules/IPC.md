@@ -85,7 +85,7 @@ There are several C-Max model number prefixes that were used for assemblies and 
 * G-series, like `GM5T-10849-AC`
 * H-series, like `HM5T-10849-AC`
 
-This is a table of part numbers and what years they were encountered on.
+This is a table of part numbers and what years they were encountered on. It [seems to line up with the Ford Part Number Format](/tools/ford_part_numbers.md).
 
 | Part Numbers  | Known Years              |
 | ------------- | ------------------------ |
@@ -108,7 +108,7 @@ The model series seems to generally determine what the software behavior is like
 
 ### D-series
 
-* 2013
+* 2013 design year
 
 The DM5T doesn't have a second 720-02 AsBuilt block.
 
@@ -127,13 +127,19 @@ Original AsBuilt for my car:
 
 ### F-series
 
+* 2015 design year
+
 Unknown!
 
 ### G-series
 
+* 2016 design year
+
 Unknown!
 
 ### H-series
+
+* 2017 design year
 
 * 2017-2018
 
