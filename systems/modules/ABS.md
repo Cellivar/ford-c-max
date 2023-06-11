@@ -20,7 +20,7 @@ On Fusion vehicles the ABS module participates in the adaptive cruise control, a
 
 Most of these values are not documented, and the Cyanlabs listing is only for the CGEA versions of these modules so doesn't line up.
 
-Block 0760-01-01 is the VIN for the vehicle, [see the doc for that.](../ford_vin.md).
+Block 737-01-01 is the VIN for the vehicle, [see the doc for that](/systems/ford_vin.md).
 
 | 0760-02-01 | Nibble (hex) | Bit | Effect                            | Notes                       |
 | ---------- | ------------ | --- | --------------------------------- | --------------------------- |

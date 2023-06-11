@@ -12,4 +12,7 @@
 
 ## AsBuilt Configuration
 
-TODO!
+CyanLabs does not have a database for these values, I don't know what they control. Given the RCM is responsible _for explosives_ it's something I am not interested in experimenting with.
+
+Block 737-01-01 is the VIN for the vehicle, [see the doc for that](/systems/ford_vin.md).
+

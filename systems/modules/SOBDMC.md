@@ -10,6 +10,8 @@
 | Location            | Above transmission |       |
 | Bus                 | HS-CAN             |       |
 
+This module is responsible for making the electrical side of the drivetrain function. It manages the driven motor power, generated energy, regenerative braking, and all of the other electron-powered propulsion of the vehicle.
+
 ## AsBuild Configuration
 
-TODO!
+I cannot find any documentation for the _extensive_ number of AsBuilt config entries. I am very interested in them, and especially how they have changed over the years.
