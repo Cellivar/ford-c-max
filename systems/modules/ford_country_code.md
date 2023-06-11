@@ -1,0 +1,291 @@
+# Ford AsBuilt Country Code
+
+Ford began using a common Country Code table in a number of AsBuilt module configurations. These are a two-byte code corresponding to a lookup table.
+
+The codes are the same for each module, so are broken out here for clarity since it's a long list.
+
+The common codes that you might find on a legitimate C-Max Energi are limited to North America.
+
+* 5553 - UNITED STATES OF AMERICA (US)
+* 4341 - CANADA (CA)
+* 4D58 - MEXICO (MK)
+
+Due to module re-use across all Ford vehicles the full table is available. The firmware of individual modules may not know what to do with values outside of the normal North American set.
+
+<details>
+<summary>All of the codes</summary>
+
+| Code | Description |
+| ----------- | ---- |
+| 3030 | None of the above / Rest Of World (00) |
+| 4141 | ARUBA (AA) |
+| 4143 | ANTIGUA &  BARBUDA (AC) |
+| 4146 | AFGHANISTAN (AF) |
+| 4147 | ALGERIA (AG) |
+| 414A | AZERBAIJAN (AJ) |
+| 414C | ALBANIA (AL) |
+| 414D | ARMENIA (AM) |
+| 414E | ANDORRA (AN) |
+| 414F | ANGOLA (AO) |
+| 4151 | AMERICAN SAMOA (AQ) |
+| 4151 | SAMOA (AQ) |
+| 4152 | ARGENTINA (AR) |
+| 4153 | AUSTRALIA (AS) |
+| 4154 | ANGUILLA (AT) |
+| 4155 | AUSTRIA (AU) |
+| 4159 | AY ANTARCTICA (AY) |
+| 4241 | BAHRAIN (BA) |
+| 4242 | BARBADOS (BB) |
+| 4243 | BOTSWANNA (BC) |
+| 4244 | BERMUDA (BD) |
+| 4245 | BELGIUM (BE) |
+| 4246 | BAHAMAS (BF) |
+| 4247 | BANGLADESH (BG) |
+| 4248 | BELIZE (BH) |
+| 424A | South Sudan (BJ) |
+| 424B | BOSNIA (BK) |
+| 424C | BOLIVIA (BL) |
+| 424D | MYANMAR (BM) |
+| 424E | BENIN (BN) |
+| 424F | BELARUS (BO) |
+| 4250 | SOLOMON ISLANDS (BP) |
+| 4251 | BQ NAVASSA ISLAND (BQ) |
+| 4252 | BRAZIL (BR) |
+| 4253 | BS BASSAS DA INDIA (BS) |
+| 4254 | BHUTAN (BT) |
+| 4255 | BULGARIA (BU) |
+| 4256 | BV BOUVET ISLAND (BV) |
+| 4258 | BRUNEI (BX) |
+| 4259 | BURUNDI (BY) |
+| 4341 | CANADA (CA) |
+| 4342 | CAMBODIA (CB) |
+| 4344 | CHAD (CD) |
+| 4345 | SRI LANKA (CE) |
+| 4346 | CONGO, REPUBLIC OF (CF) |
+| 4347 | CONGO, DEMOCRATIC REPUBLIC OF (CG) |
+| 4348 | CHINA (CH) |
+| 4349 | CHILE (CI) |
+| 434A | CAYMAN ISLAND (CJ) |
+| 434B | CK COCOS ISLANDS (CK) |
+| 434D | Cameroon (CM) |
+| 434E | COMOROS (CN) |
+| 434F | COLOMBIA (CO) |
+| 4351 | NORTHERN MARIANA ISLANDS (CQ) |
+| 4352 | CR CORAL SEA ISLAND (CR) |
+| 4353 | COSTA RICA (CS) |
+| 4354 | CENTRAL AFRICA REPUBLIC (CT) |
+| 4355 | CUBA (CU) |
+| 4356 | CAPE VERDE ISLANDS (CV) |
+| 4357 | COOK ISLANDS (CW) |
+| 4359 | CYPRUS (CY) |
+| 4441 | DENMARK (DA) |
+| 444A | DJIBOUTI (DJ) |
+| 444F | DOMINICA (DO) |
+| 4451 | DQ JARVIS ISLAND (DQ) |
+| 4452 | DOMINICAN REPUBLIC (DR) |
+| 4543 | ECUADOR (EC) |
+| 4547 | EGYPT (EG) |
+| 4549 | IRELAND (EI) |
+| 454B | EQUATORIAL GUINEA (EK) |
+| 454E | ESTONIA (EN) |
+| 4552 | ERITREA (ER) |
+| 4553 | EL SALVADOR (ES) |
+| 4554 | ETHIOPIA (ET) |
+| 4555 | EU EUROPA ISLAND (EU) |
+| 455A | CZECH REPUBLIC (EZ) |
+| 4647 | FRENCH GUIANA (FG) |
+| 4649 | FINLAND (FI) |
+| 464A | FIJI (FJ) |
+| 464B | FALKLAND ISLANDS (FK) |
+| 464D | MICRONESIA (FM) |
+| 464F | FAEROE ISLANDS (FO) |
+| 4650 | TAHITI (FP) |
+| 4651 | FQ BAKER ISLAND (FQ) |
+| 4652 | FRANCE (FR) |
+| 4653 | FRENCH SOUTH. ANTARCTIC LANDS (FS) |
+| 4741 | GAMBIA (GA) |
+| 4742 | GABON (GB) |
+| 4747 | GEORGIA (GG) |
+| 4748 | GHANA (GH) |
+| 4749 | GIBRALTAR (GI) |
+| 474A | GRENADA (GJ) |
+| 474B | GK GUERNSEY (GK) |
+| 474C | GREENLAND (GL) |
+| 474D | GERMANY (GM) |
+| 474F | GO GLORISOS ISLAND (GO) |
+| 4750 | GUADELOUPE (GP) |
+| 4750 | ST. MARTIN (8502 Mapped to Guadeloupe ) (GP) |
+| 4751 | GUAM-U.S. TERR. (GQ) |
+| 4752 | GREECE (GR) |
+| 4754 | GUATEMALA (GT) |
+| 4756 | GUINEA REPUBLIC (GV) |
+| 4759 | GUYANA (GY) |
+| 4841 | HAITI (HA) |
+| 484B | HONG KONG (HK) |
+| 484F | HONDURAS (HO) |
+| 4852 | CROATIA (HR) |
+| 4855 | HUNGARY (HU) |
+| 4943 | ICELAND (IC) |
+| 4944 | INDONESIA (ID) |
+| 494D | IM MAN, ISLE OF (IM) |
+| 494E | INDIA (IN) |
+| 494F | BRITISH INDIAN OCEAN (IO) |
+| 4950 | IP CLIPPERTON ISLAND (IP) |
+| 4952 | IRAN (IR) |
+| 4953 | ISRAEL (IS) |
+| 4954 | ITALY (IT) |
+| 4956 | IVORY COAST (IV) |
+| 495A | IRAQ (IZ) |
+| 4A41 | JAPAN (JA) |
+| 4A45 | JE JERSEY (JE) |
+| 4A4D | JAMAICA (JM) |
+| 4A4E | JN JAN MAYEN (JN) |
+| 4A4F | JORDAN (JO) |
+| 4A51 | JQ JOHNSON ATOLL (JQ) |
+| 4B45 | KENYA (KE) |
+| 4B47 | KYRGYZSTAN (KG) |
+| 4B4E | NORTH KOREA (KN) |
+| 4B51 | KQ KINGMAN REEF (KQ) |
+| 4B52 | KIRIBATI (KR) |
+| 4B53 | SOUTH KOREA (KS) |
+| 4B54 | KT CHRISTMAS ISLAND (KT) |
+| 4B55 | KUWAIT (KU) |
+| 4B5A | KAZAKHSTAN (KZ) |
+| 4C41 | LAOS (LA) |
+| 4C45 | LEBANON (LE) |
+| 4C47 | LATVIA (LG) |
+| 4C48 | LITHUANIA (LH) |
+| 4C49 | LIBERIA (LI) |
+| 4C4F | SLOVAKIA (LO) |
+| 4C51 | LQ PALMYRA ATOLL (LQ) |
+| 4C53 | LIECHTENSTEIN (LS) |
+| 4C54 | LESOTHO (LT) |
+| 4C55 | LUXEMBOURG (LU) |
+| 4C59 | LIBYA (LY) |
+| 4D41 | MADAGASCAR (MA) |
+| 4D42 | MARTINIQUE (MB) |
+| 4D43 | MACAU (MC) |
+| 4D44 | MOLDAVIA (MD) |
+| 4D46 | MAYOTTE (MF) |
+| 4D47 | MONGOLIA (MG) |
+| 4D48 | MONSERRAT (MH) |
+| 4D49 | MALAWI (MI) |
+| 4D4B | MACEDONIA (MK) |
+| 4D4C | MALI (ML) |
+| 4D4E | MONACO (MN) |
+| 4D4F | MOROCCO (MO) |
+| 4D50 | MAURITIUS (MP) |
+| 4D51 | MQ MIDWAY ISLAND (MQ) |
+| 4D52 | MAURITANIA (MR) |
+| 4D54 | MALTA (MT) |
+| 4D55 | OMAN (MU) |
+| 4D56 | MALDIVE ISLANDS (MV) |
+| 4D57 | MONTENEGRO (MW) |
+| 4D58 | MEXICO (MX) |
+| 4D59 | ALL MALAYSIA (MY) |
+| 4D59 | MALAYSIA (EAST) (MY) |
+| 4D59 | MALAYSIA (WEST) (MY) |
+| 4D5A | MOZAMBIQUE (MZ) |
+| 4E43 | NEW CALEDONIA (NC) |
+| 4E45 | NE NIUE (NE) |
+| 4E46 | NORFOLK ISLANDS (NF) |
+| 4E47 | NIGER (NG) |
+| 4E48 | VANUATU (NH) |
+| 4E49 | NIGERIA (NI) |
+| 4E4C | NETHERLANDS (NL) |
+| 4E4F | NORWAY (NO) |
+| 4E50 | NEPAL (NP) |
+| 4E52 | NAURU (NR) |
+| 4E53 | SURINAM (NS) |
+| 4E54 | Bonaire (NT) |
+| 4E54 | Curacao (NT) |
+| 4E54 | NETHERLANDS ANTILLES (NT) |
+| 4E55 | NICARAGUA (NU) |
+| 4E5A | NEW ZEALAND (NZ) |
+| 5041 | PARAGUAY (PA) |
+| 5043 | PC PITCAIRN ISLAND (PC) |
+| 5045 | PERU (PE) |
+| 5046 | PF PARCEL ISLAND (PF) |
+| 504B | PAKISTAN (PK) |
+| 504C | POLAND (PL) |
+| 504D | PANAMA (PM) |
+| 504F | PORTUGAL (PO) |
+| 5050 | PAPUA (PP) |
+| 5053 | PALAU (PS) |
+| 5054 | EAST TIMOR (PT) |
+| 5054 | Portuguese Timor (PT) |
+| 5055 | GUINEA-BISSAU (PU) |
+| 5141 | QATAR (QA) |
+| 5245 | REUNION (RE) |
+| 524D | MARSHALL ISLANDS (RM) |
+| 524F | ROMANIA (RO) |
+| 5250 | PHILIPPINES (RP) |
+| 5251 | PUERTO RICO (RQ) |
+| 5253 | RUSSIA (RS) |
+| 5257 | RWANDA (RW) |
+| 5341 | SAUDI ARABIA (SA) |
+| 5342 | ST MAARTEN (SB) |
+| 5343 | ST. KITTS &  NEVIS (SC) |
+| 5345 | SEYCHELLES (SE) |
+| 5346 | SOUTH AFRICA (SF) |
+| 5347 | SENEGAL (SG) |
+| 5348 | ST. HELENA (SH) |
+| 5349 | SLOVENIA (SI) |
+| 534C | SIERRA LEONE (SL) |
+| 534D | SAN MARINO (SM) |
+| 534E | SINGAPORE (SN) |
+| 534F | SOMALIA (SO) |
+| 5350 | SPAIN (SP) |
+| 5352 | SERBIA-MONTENEGRO (SR) |
+| 5354 | ST. LUCIA (ST) |
+| 5355 | SUDAN (SU) |
+| 5356 | SV SVALBARD (SV) |
+| 5357 | SWEDEN (SW) |
+| 5358 | SX S GEO/S SWADWIC (SX) |
+| 5359 | SYRIA (SY) |
+| 535A | SWITZERLAND (SZ) |
+| 5443 | UNITED ARAB EMIRATES (TC) |
+| 5444 | TRINIDAD &  TOBAGO (TD) |
+| 5445 | TE TROMELIN ISLAND (TE) |
+| 5448 | THAILAND (TH) |
+| 5449 | TAJIKISTAN (TI) |
+| 544B | TURKS &  CAICOS ISLANDS (TK) |
+| 544C | TOKELAU (TL) |
+| 544E | TONGA (TN) |
+| 544F | TOGO (TO) |
+| 5450 | SAO TOME &  PRINCIPE (TP) |
+| 5453 | TUNISIA (TS) |
+| 5455 | TURKEY (TU) |
+| 5456 | TUVALU (TV) |
+| 5457 | TAIWAN (TW) |
+| 5458 | TURKMENISTAN (TX) |
+| 545A | TANZANIA (TZ) |
+| 5547 | UGANDA (UG) |
+| 554B | UK UNITED KINGDOM (UK) |
+| 554D | UM US MINOR OUTLYING ISLANDS (UM) |
+| 5550 | UKRAINE (UP) |
+| 5553 | GSA (typically treat as US) (US) |
+| 5553 | Military (STATESIDE DELIVERY) (US) |
+| 5553 | Military (U.S. MILITARY EXPORT) (US) |
+| 5553 | Military (U.S. MILITARY SOLD/EUR) (US) |
+| 5553 | UNITED STATES OF AMERICA (US) |
+| 5556 | BURKINA FASO (UV) |
+| 5559 | URUGUAY (UY) |
+| 555A | UZBEKISTAN (UZ) |
+| 5643 | ST. VINCENT &  THE GRENADINES (VC) |
+| 5645 | VENEZUELA (VE) |
+| 5649 | BRITISH VIRGIN ISLANDS (VI) |
+| 564D | VIETNAM (VM) |
+| 5651 | US VIRGIN ISLANDS (VQ) |
+| 5654 | VATICAN CITY (VT) |
+| 5741 | NAMIBIA (WA) |
+| 5745 | WEST BANK (WE) |
+| 5746 | WALLIS &  FUTUNA (WF) |
+| 5749 | WESTERN SAHARA (WI) |
+| 5751 | WQ WAKE ISLAND (WQ) |
+| 5753 | SWAZILAND (WS) |
+| 594D | YEMEN (YM) |
+| 5A41 | ZAMBIA (ZA) |
+| 5A49 | ZIMBABWE (ZI) |
+
+</details>
