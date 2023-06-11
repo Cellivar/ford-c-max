@@ -1,5 +1,12 @@
 # Parking Aid Module
 
+Two part number series:
+
+* -A_ modules (AA through AJ): Rear PDC only
+* -B_ modules (BA through BH): Full SAPP with front and rear PDC
+
+Attempting to enable SAPP with a -A series unit will not work, generates DTCs in the PSCM and the PAM and breaks rear PDC. Generates warning messages in the IPC.
+
 ## Original
 
 TODO!

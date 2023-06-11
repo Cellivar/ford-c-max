@@ -1,18 +1,20 @@
 # Adding the OEM Rear View Camera
 
-The [2013 C-Max Equipment Group 302A](/docs/ford/2013-cmax-brochure.pdf) included a rear-view camera mounted to the bumper of the vehicle. My C-Max Energi was a fleet vehicle special order and came with the base equipment package. After having driven several rental cars with backup cameras I decided I wanted it, and I decided I hated the look of all aftermarket solutions for this. OEM stock was the way to go, and these are the notes I took along the way.
+The [2013 C-Max Equipment Group 302A](/docs/ford/marketing/2013-cmax-brochure.pdf) included a rear-view camera mounted to the bumper of the vehicle. My C-Max Energi was a fleet vehicle special order and came with the base equipment package. After having driven several rental cars with backup cameras I decided I wanted it, and I decided I hated the look of all aftermarket solutions for this. OEM stock was the way to go, and these are the notes I took along the way.
+
+Note: The [IPMB](/systems/modules/IPMB.md) is _not present_ on 2015 and later models, instead they run the LIN line straight into the [BdyCM](/systems/modules/BdyCM.md) directly. These instructions are vaguely similar to what you'd need to do there, but also at some point the RVC became standard equipment so maybe it'll never be needed.
 
 ## Parts
 
-| Parts          | Part Number    | Notes                                      |
-| -------------- | -------------- | ------------------------------------------ |
-| Camera         | DM5Z-19G490-A or -B  | See notes below                            |
-| Camera Bracket | BM5Z-19H421-A  | Holds the camera in the liftgate handle    |
-| Camera Pigtail | WPT-1280       | 2013 wiring diagrams show wrong connector! |
-| IPMB           | CM5T-19H423-AB |                                            |
-| IPMB Pigtail   | WPT-998        |                                            |
-| Add-a-fuse kit | Find online    | Needed for pin 4 of IPMB for power         |
-| 22 gauge wire  | Find online    |                                            |
+| Parts          | Part Number         | Notes                                      |
+| -------------- | ------------------- | ------------------------------------------ |
+| Camera         | DM5Z-19G490-A or -B | See notes below                            |
+| Camera Bracket | BM5Z-19H421-A       | Holds the camera in the liftgate handle    |
+| Camera Pigtail | WPT-1280            | 2013 wiring diagrams show wrong connector! |
+| IPMB           | CM5T-19H423-AB      |                                            |
+| IPMB Pigtail   | WPT-998             |                                            |
+| Add-a-fuse kit | Find online         | Needed for pin 4 of IPMB for power         |
+| 22 gauge wire  | Find online         |                                            |
 
 ### Camera Selection
 
@@ -103,7 +105,7 @@ My 2013 was not wired with the necessary wires in the main wiring harnesses (140
 
 You'll need twisted pair wire for the IPMB and two shielded conductors for the video signal. I used some coax I had lying around and it's been working fine.
 
-Energi models have the IPMB on the passenger side, but that requires removing the traction battery cooling fan. Instead I added velcro to the RFA module and stuck it on the driver side and ran the wires from there.
+Energi models have the IPMB on the passenger side above the PAM, but that requires removing the traction battery cooling fan. Instead I added velcro to the RFA module and stuck it on the driver side and ran the wires from there.
 
 Note that the tailgate wire harness will also lack all of the appropriate connectors too, so the wires you choose to run to the camera should be flexible to withstand the liftgate opening and closing. The wire pass-through is fairly crowded, be patient.
 

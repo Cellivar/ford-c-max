@@ -27,3 +27,5 @@ I don't know what these settings are for and haven't found any guidance online.
 |            |              | 0   |                |       |
 |            |              | 0   |                |       |
 | CHECKSUM   | 41           |     | Autocalculated |       |
+
+Fascinating issue: this config block does not appear in the official AsBuilt config from Ford. I don't know what this is supposed to be configured with.
