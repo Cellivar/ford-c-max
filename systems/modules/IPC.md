@@ -202,7 +202,7 @@ An AsBuilt for a 2017 Energi Titanium w/autopark sensors, Nav, Sony Audio:
 |            |              | 1   | EE Format Menu                                | ????                                    |                             |
 |            | 9            | 1   | Key-in-ignition chime                         | No effect on keyless C-Maxes?           |                             |
 |            |              | 0   | Enable overspeed chime                        |                                         |                             |
-|            |              | 0   | Backup (Japan Only)                           | ???                                     |                             |
+|            |              | 0   | Backup chime (Japan Only)                     | IPC chimes when car is in R             |                             |
 |            |              | 1   | Enable roll-stability chimes                  | Beeps when you're about to flip the car |                             |
 | CHECKSUM   | 4E           |     | Autocalculated                                |                                         |                             |
 
