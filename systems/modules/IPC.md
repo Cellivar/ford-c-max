@@ -239,7 +239,7 @@ An AsBuilt for a 2017 Energi Titanium w/autopark sensors, Nav, Sony Audio:
 |            | 0            | 0   | IPC Language Selection             | Note 12                            |                                |
 |            |              | 0   | IPC Language Selection             |                                    |                                |
 |            |              | 0   | Enable low battery warning         | No effect                          |                                |
-|            |              | 0   | Enable frost telltale              | Can't test, California lol         |                                |
+|            |              | 0   | Enable frost telltale              | Yellow icon at 3ºC, red at 0ºC     |                                |
 |            | 3            | 0   | Enable UK Gallons                  | UK gallons as display unit         |                                |
 |            |              | 0   | Metric fuel display type           | 0 = L/100km, 1 = km/L              |                                |
 |            |              | 1   | Enable outside air temp display    | Note 13                            | Outside air temperature        |
