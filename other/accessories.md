@@ -2,11 +2,11 @@
 
 Ford and other OEMs created a number of accessories for the C-Max vehicles. This list is for the ones officially designed just for the C-Max or the C-Max, Fusion, and Ford Focus Electric series, things that were used in many Ford vehicles of the era are omitted.
 
-## Ford Accessories 
+## Ford Accessories
 
 Official accessories that showed up in the accessories catalogs. Many are now discontinued.
 
-If anyone ever has a lead on the lighted door sils I want them.
+If anyone ever has a lead on the lighted door sills I want them.
 
 | Part Number | Name | Installation? | Notes |
 | ---- | ----------- | ------------- | ----- |
@@ -31,7 +31,7 @@ If anyone ever has a lead on the lighted door sils I want them.
 
 Alternate floor mats from Ford to replace the ones wearing out in your car.
 
-| Part Number | Name | Notes | 
+| Part Number | Name | Notes |
 | - | - | - |
 | DM5Z-5813300-AA | All-weather floor mats | Black, 4-piece |
 | DM5Z-5413300-AA | Carpeted floor mats | Medium Stone (tan/beige), 4-piece |

@@ -1,4 +1,4 @@
-# Ford Elecrical Architecture Notes
+# Ford Electrical Architecture Notes
 
 > ⚠️ These notes are my understanding that I use to apply modifications to my car. They are almost certainly inaccurate, missing details, and using non-Ford terminology. If you can correct or improve these, _especially_ if you can cite more authoritative resources [I'm _very_ open to hearing about it!](https://github.com/Cellivar/ford-c-max/issues/new/choose)
 

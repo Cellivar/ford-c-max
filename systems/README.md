@@ -41,6 +41,13 @@ These module names come from ForScan, which may or may not coincide with Ford do
 
 ## System Information
 
+* [Vehicle specs](./specs.md)
+
 ### Electrical
 
 * [12V Battery](./electrical/low_voltage_battery.md)
+
+## General Information
+
+* [Ford electrical platform overview](./ford_platform_overview.md)
+* [Ford parts numbers overview](./ford_vin.md)
