@@ -35,9 +35,41 @@ The data is the set of bytes that are present at that data.
 
 Checksums are calculated from the full address (07300101) and data (0A6A019650) adding the bytes together (07 + 30 + 01 + 01 + 0A + 6A + 01 + 96 + 50) modulo 256 (94).
 
+The block and line parts of the address are used in the checksum as hex pairs, so a block or line number `10` counts as `0x10` (16), not decimal 10. If you calculate a checksum with a plain decimal reading of the labels and it comes out exactly 6 too high per two-digit label of 10 or above, this is why.
+
+Two label styles in the AsBuilt file follow different rules:
+
+* The `PCM n` lines checksum against just their data bytes plus `0x10` plus the line number `n`.
+* The `VEHICLE_DATA` line checksums against just its data bytes, with no address contribution.
+
 Meaning of configuration is _entirely_ left up to the module, that is, there is _no_ way to know what the meaning of a configuration value is without a guide _for your specific module's part number and firmware_ and _your vehicle's model year and installed components_. **Never assume configuration translates between different vehicles!**
 
-### AsBulit File Format
+### AsBuilt File Format
+
+The Motorcraft AsBuilt download is an XML file with a `.ab` extension, named after the vehicle's VIN. The vehicle element contains:
+
+* `VEHICLE_DATA` — a single generic configuration line
+* `PCM_MODULE` — the PCM configuration lines, labeled `PCM n`
+* `BCE_MODULE` — the configuration blocks for most body electronics modules, labeled by bus address in the `7D0-01-01` style
+* `NODEID` — one entry per module on the bus, with the module's bus address and the Ford part numbers for its strategy, core assembly, and calibration levels
+* `CCC_MODULE` — the raw [Central Configuration](./ford_central_config.md) record
+
+The `NODEID` entries carry part numbers in fields named after diagnostic DIDs, defined in Ford's ODL (Optimized DID List) documents:
+
+| Field | DID meaning                                              |
+| ----- | ------------------------------------------------------- |
+| F10A  | ECU Cal-Config Part Number                              |
+| F110  | On-line Diagnostic Database Reference Number (strategy, `DS-` prefixed) |
+| F111  | ECU Core Assembly Number                                |
+| F113  | ECU Delivery Assembly Number                             |
+| F124  | ECU Calibration Data #1 Number                           |
+| F141  | Private Sub Node #1 Serial Number                        |
+| F188  | Vehicle Manufacturer ECU Software Number                 |
+| F18C  | ECU Serial Number                                        |
+| F1D0  | ECU MAC Address 1                                        |
+| F1D1  | ECU MAC Address 2                                        |
+
+Some AsBuilt files also carry `F108`, `F121`, and `F191` entries whose meanings are not defined in the ODL.
 
 ### Finding AsBuilt Configurations
 

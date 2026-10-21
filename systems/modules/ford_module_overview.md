@@ -78,6 +78,35 @@ C-Maxes distribute the system configuration between central and individual confi
 
 [See this document for more about module config](./ford_module_config.md).
 
+## CAN Bus Segmentation and the OBD Ports
+
+C-Maxes (CGEA 1.2) split their modules across two CAN buses, both reachable from the OBD port:
+
+* **HS-CAN**: 500 kbps, OBD pins 6 and 14
+* **MS-CAN**: 125 kbps, OBD pins 3 and 11
+
+Modules answer standard UDS requests on their AsBuilt module code as the request ID (e.g. `7D0`), and reply from request ID + 8 (e.g. `7D8`).
+
+An empirical sweep (UDS `3E 00` TesterPresent, vehicle in RUN, modules awake) on a 2014 Energi produced this census:
+
+| Bus   | Modules                                                                     |
+| ----- | --------------------------------------------------------------------------- |
+| HS-CAN | PCM (7E0), GWM (716), BdyCM (726), RCM (737), ABS (760), APIM (7D0), PSCM (730), OCS (765), SASM (797) |
+| MS-CAN | GPSM (701), IPC (720), ACM (727), RFA (731), HVAC (733), DDM (740), PDM (741), TCU (754), FCIM (7A7), DACMC (7D5) |
+
+Not located from the OBD port during this sweep: SOBDM (7E2), BECM (7E4), SOBDMC (7E6) — these addresses were not tried — and RGTM (775) and IPMB (7B1), which did not answer on MS-CAN and were not retried on HS-CAN. TODO: complete the census.
+
+**Your adapter matters here.** Cheap ELM327 clones are hardwired to pins 6/14 and cannot reach MS-CAN at all (see [OBD adapters](/tools/obd_adapters.md)) — a sweep from a clone will only ever find the HS-CAN half of the car and may lead you to believe sleeping MS-CAN modules are missing.
+
+### The Energi's Two OBD Ports
+
+At least some C-Max Energis have _two_ J1962 diagnostic connectors:
+
+1. Behind the hatch below the headlight controls (driver's side of the dash)
+2. In the footwell below the steering wheel (the conventional location, behind which the [GWM](./GWM.md) lives)
+
+Both were empirically confirmed to be wired in parallel — an identical set of modules answered from either port. The second port is a convenience, not a different bus.
+
 ## Sources
 
 * [FORScan thread on module firmware architecture](https://forscan.org/forum/viewtopic.php?f=13&t=18751)

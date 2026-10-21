@@ -51,8 +51,8 @@ These are settings you may want to change.
 
 My 2013 model is a fleet vehicle and had DRLs enabled from the factory according to my Monroney sticker. You can pay Ford to change this setting for you, or you can change it in FORScan. There are 4 applicable settings for a C-Max:
 
-* 02 = Always dipped lights (standard DRLs)
-* 03 = Always dipped except in position P (this does not turn them off in park)
+* 02 = No DRLs. This is the value on most normal US 2013-2014 models (confirmed on a 2014 Energi with byte 16 = 02 and no DRLs)
+* 03 = Always dipped except in position P (this does not turn them off in park). This is the DRLs-enabled value used by fleet-ordered cars, the two 2013 "Wreck" reference vehicles share it
 * 05 = Default for 2017
 * 0A = Default for 2015
 
